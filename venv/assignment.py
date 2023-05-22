@@ -1,0 +1,7 @@
+f_name = input("Enter first name: ")
+l_name = input("Enter second name: ")
+age = int(input("Enter age: "))
+c_year =int(input("Enter current year: "))
+earthly_Appearance= (c_year-age)
+#print(f_name+" "+l_name+  " you are " +str(age)+ " years old and you came to earth in the year "+ str(earthly_Appearance))
+print(f"{f_name} {l_name}, you are {age}years old and you came to earth in the year {earthly_Appearance}.")
